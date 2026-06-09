@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#E6E6FA"
+    android:padding="20dp">
+
+    <!-- 🌸 GUIDE FLOWER -->
+    <ImageView
+        android:id="@+id/guideFlower"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/guideflower"
+        android:layout_marginTop="80dp"
+        android:contentDescription="Guide Flower"
+        android:scaleX="1.0"
+        android:scaleY="1.0"/>
+
+    <!-- 🌸 TITLE -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Flower Category 🌸"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnMedicinal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Medicinal Flowers 🌿"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_style"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnFragrant"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fragrant Flowers 🌸"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_style"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnSacred"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sacred Flowers 🙏"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_style"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnDecorative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Decorative Flowers 🎨"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_style"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnGarden"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Garden Flowers 🦋"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_style"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

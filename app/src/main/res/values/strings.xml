@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🌸 APP -->
+    <string name="app_name">Bloomopedia</string>
+    <string name="floweria_title">Floweria </string>
+
+    <!-- 🌸 WELCOME -->
+    <string name="welcome_title">
+        Welcome to the World of Flowers
+    </string>
+
+    <string name="start_exploring">
+        Start Exploring Flowers
+    </string>
+
+    <!-- 🌸 CATEGORY -->
+    <string name="category_title">
+        Choose Flower Category
+    </string>
+
+    <string name="medicinal">
+        Medicinal Flowers 🌿
+    </string>
+
+    <string name="fragrant">
+        Fragrant Flowers 🌸
+    </string>
+
+    <string name="sacred">
+        Sacred Flowers 🙏
+    </string>
+
+    <string name="decorative">
+        Decorative Flowers 🎨
+    </string>
+
+    <string name="garden">
+        Garden Flowers 🦋
+    </string>
+
+    <!-- 🌸 FLOWER DETAIL -->
+    <string name="flower_image">
+        Flower Image
+    </string>
+
+    <string name="flower_name">
+        Rose
+    </string>
+
+    <string name="flower_info">
+        Flower info
+    </string>
+
+    <string name="scientific_info">
+        Scientific info
+    </string>
+
+    <string name="play_audio">
+        🔊 Play Audio
+    </string>
+
+    <string name="find_nearby">
+        📍 Find Nearby
+    </string>
+
+    <!-- 🌸 NAVIGATION -->
+    <string name="first_fragment_label">
+        First Fragment
+    </string>
+
+    <string name="second_fragment_label">
+        Second Fragment
+    </string>
+    <string name="flower_list">Flower List</string>
+
+</resources>

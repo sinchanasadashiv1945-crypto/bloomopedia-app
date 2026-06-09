@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 🌸 FULL SCREEN IMAGE -->
+        <ImageView
+            android:id="@+id/flowerImage"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Flower Image" />
+
+        <!-- 🌸 NAME -->
+        <TextView
+            android:id="@+id/flowerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rose"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <!-- 🌸 INFO -->
+        <TextView
+            android:id="@+id/flowerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flower Info"
+            android:textSize="18sp"
+            android:textColor="#DDDDDD"
+            android:padding="16dp"
+            android:gravity="center" />
+
+        <!-- 🌸 EXTRA INFO -->
+        <TextView
+            android:id="@+id/flowerExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scientific Info"
+            android:textSize="16sp"
+            android:textColor="#BBBBBB"
+            android:padding="16dp"
+            android:gravity="center" />
+
+        <!-- 🌸 BUTTONS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/btnSpeak"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🔊 Play Audio"
+                android:backgroundTint="#E91E63"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnMap"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="📍 Find Nearby"
+                android:backgroundTint="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
